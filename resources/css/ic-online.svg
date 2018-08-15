@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg27"
+   version="1.1"
+   viewBox="0 0 44 40"
+   height="40"
+   width="44">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">ic_online</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs19">
+    <filter
+       id="filter-1"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5">
+      <feOffset
+         id="feOffset6"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="2"
+         dx="0" />
+      <feGaussianBlur
+         id="feGaussianBlur8"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix10"
+         result="shadowMatrixOuter1"
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" />
+      <feMerge
+         id="feMerge16">
+        <feMergeNode
+           id="feMergeNode12"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode14"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     transform="translate(7,8)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     id="OPt-2">
+    <g
+       style="fill:#000000"
+       transform="translate(-185,-17)"
+       id="prog2_pro3_Mobile-Portrait_opt2-Copy-2">
+      <g
+         id="nav">
+        <g
+           style="filter:url(#filter-1)"
+           id="Group-6">
+          <g
+             transform="translate(189,19)"
+             id="ic_online">
+            <path
+               id="Shape"
+               d="M 20,12 H 2 V 2 H 20 Z M 20,0 H 2 C 0.89,0 0,0.89 0,2 v 12 c 0,1.10457 0.8954305,2 2,2 h 7 l -2,3 v 1 h 8 v -1 l -2,-3 h 7 c 1.104569,0 2,-0.89543 2,-2 V 2 C 22,0.89 21.1,0 20,0 Z" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
