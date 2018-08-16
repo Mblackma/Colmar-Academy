@@ -1,0 +1,63 @@
+/*Universal Styles*/
+
+html{
+background-color: white;
+color: black;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+}
+
+/*Header*/
+
+.company{
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company img{
+  margin-left:24px;
+  height: 32px;
+}
+
+ul li{
+  padding-right: 16px;
+  list-style: none;
+}
+
+nav{
+  margin-right: 24px;
+  display: inline;
+}
+
+/*Main-Banner*/
+
+.main-banner img{
+  height: 60%;
+  width: 60%
+  margin: 32px 24px;
+}
+
+/*Section-1*/
+@media screen only and (max-wdith:540px){
+
+}
+
+/*Section-2*/
+@media screen only and (max-wdith:540px){
+
+}
+
+/*Section-3*/
+@media screen only and (max-wdith:540px){
+
+}
+
+/*Section-4*/
+@media screen only and (max-wdith:540px){
+
+}
+/*Footer*/
