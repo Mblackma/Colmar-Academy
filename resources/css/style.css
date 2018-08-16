@@ -4,15 +4,26 @@ html{
 background-color: white;
 color: black;
 font-size: 18px;
+font-style: serif;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 
 .container{
-display: flex;
-flex-direction: column;
+  display: flex;
 }
+
+                                  /*Section-1*/
 
 /*Header*/
 
+header{
+  display: flex;
+}
 .company{
   height: 64px;
   display: flex;
@@ -27,6 +38,7 @@ flex-direction: column;
 ul li{
   padding-right: 16px;
   list-style: none;
+  font-size: 2rem;
 }
 
 nav ul{
@@ -35,23 +47,32 @@ nav ul{
 
 }
 
+@media screen only and (max-width:540px){
+
+}
+
 /*Main-Banner*/
 
-.left{
-  display: flex;
+.container-1{
   background-color: #CCCCCC;
+display: flex;
+}
+
+.left{
   padding: 32px 0;
 }
 
 .left img{
-  height: 60%;
-  width: 60%
+  height: auto;
+  width: 100%;
   padding: 0px 24px;
 }
 
 .right{
 width: 40%;
-height: 40%;
+height: 100%;
+margin-left: 5rem;
+margin-top: 6rem;
 }
 
 h1{
@@ -70,14 +91,36 @@ color: #333333;
   padding: 8px 0;
   font-size: 2rem;
   color: white;
-}
+  width: 75%;
+  }
 
-/*Section-1*/
-@media screen only and (max-wdith:540px){
+  @media screen only and (max-width:540px){
 
-}
+  }
+
 
 /*Section-2*/
+
+.text{
+
+}
+.text h2{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.text h5{
+font-size: 1.8rem;
+font-weight: 100;
+}
+
+.right-2{
+width: 40%;
+height: 100%;
+
+
+}
+
 @media screen only and (max-wdith:540px){
 
 }
