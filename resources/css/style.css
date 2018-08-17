@@ -119,32 +119,6 @@ height: auto;
 
 }
 
-.orientation{
-display: flex;
-border: grey solid 1px;
-width: 65%;
-}
-
-.orientation-grey{
-  display: flex;
-  border: grey solid 1px;
-  width: 65%;
-  background-color: #CCCCCC;
-}
-
-.orientation img{
-  width: 35%;
-  height: auto;
-}
-
-.orientation h4{
-font-size: 4rem;
-color: #
-}
-
-.orientation h5{
-font-size: 1.8rem;
-}
 @media screen only and (max-wdith:540px){
 
 }
