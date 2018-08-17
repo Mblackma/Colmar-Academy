@@ -113,11 +113,22 @@ font-size: 1.8rem;
 font-weight: 100;
 }
 
+
 .right-2{
+display: flex;
 width: 40%;
 height: auto;
 
 }
+
+.orientation,
+.campus,
+.lecture{
+display: flex;
+border: grey solid 1px;
+width: 65%;
+}
+
 
 @media screen only and (max-wdith:540px){
 
