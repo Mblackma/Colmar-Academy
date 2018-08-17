@@ -89,7 +89,7 @@ font-size: 2.2rem;
   padding: 24px 0;
   font-size: 1.6rem;
   color: white;
-  width: 75%;
+  width: 70%;
   }
 
   @media screen only and (max-width:540px){
@@ -100,7 +100,8 @@ font-size: 2.2rem;
 /*Section-2*/
 
 .text{
-
+display: flex;
+flex-direction: column;
 }
 .text h2{
   font-size: 4rem;
@@ -125,13 +126,15 @@ width: 65%;
 }
 
 .orientation-grey{
-
   display: flex;
+  border: grey solid 1px;
+  width: 65%;
   background-color: #CCCCCC;
 }
+
 .orientation img{
-  height: auto;
   width: 35%;
+  height: auto;
 }
 
 .orientation h4{
@@ -147,6 +150,20 @@ font-size: 1.8rem;
 }
 
 /*Section-3*/
+.container-3{
+  display: flex;
+}
+
+.program{
+border: grey solid 1px;
+
+}
+
+.sec-3{
+
+}
+
+
 @media screen only and (max-wdith:540px){
 
 }
