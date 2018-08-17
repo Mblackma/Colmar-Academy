@@ -2,7 +2,7 @@
 
 html{
 background-color: white;
-color: black;
+color: #333333;
 font-size: 18px;
 font-style: serif;
 }
@@ -77,12 +77,10 @@ margin-top: 5rem;
 
 h1{
 font-size: 4rem;
-color: #333333;
 }
 
 h3{
 font-size: 2.2rem;
-color: #333333;
 }
 
 .start{
@@ -116,14 +114,34 @@ font-weight: 100;
 
 .right-2{
 width: 40%;
-height: 100%;
+height: auto;
 
 }
 
 .orientation{
-  display: flex;
+display: flex;
+border: grey solid 1px;
+width: 65%;
 }
 
+.orientation-grey{
+
+  display: flex;
+  background-color: #CCCCCC;
+}
+.orientation img{
+  height: auto;
+  width: 35%;
+}
+
+.orientation h4{
+font-size: 4rem;
+color: #
+}
+
+.orientation h5{
+font-size: 1.8rem;
+}
 @media screen only and (max-wdith:540px){
 
 }
